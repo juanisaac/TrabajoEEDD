@@ -53,6 +53,15 @@ public class Calculadora {
 				return false;
 			}
 		}
+
+		public boolean menor() {
+			if (a<b) {
+				return false;
+			}
+			else {
+				return true;
+			}
+		}
 		
 
 	public static void main(String args[])
