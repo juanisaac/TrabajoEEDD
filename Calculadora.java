@@ -45,6 +45,16 @@ public class Calculadora {
 		
 		}
 
+		public Integer resto(){
+			if (a==0) {
+				return null;
+			}
+			else {
+				return a%b;
+			}
+		
+		}
+		
 		public boolean mayor() {
 			if (a>b) {
 				return true;
